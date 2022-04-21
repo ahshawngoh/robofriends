@@ -25,7 +25,7 @@ function App() {
         return robot.name.toLowerCase().includes(searchfield.toLowerCase());
     })
 
-    return !robots.length ?
+    return !robots.length ? 
         <h1>Loading</h1> : 
         (
             <div className='tc'>
